@@ -1,4 +1,4 @@
-package com.example.fuckingpj.api.entity;
+package com.example.weatherforecast.api.entity;
 
 import com.google.gson.annotations.SerializedName;
 

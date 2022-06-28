@@ -1,4 +1,4 @@
-package com.example.fuckingpj.view;
+package com.example.weatherforecast.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,9 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.example.fuckingpj.R;
-import com.example.fuckingpj.api.entity.Forecast;
-import com.example.fuckingpj.api.services.ForecastService;
+import com.example.weatherforecast.R;
+import com.example.weatherforecast.api.entity.Forecast;
+import com.example.weatherforecast.api.services.ForecastService;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;

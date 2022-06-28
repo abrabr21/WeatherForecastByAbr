@@ -1,4 +1,4 @@
-package com.example.fuckingpj.utils.json;
+package com.example.weatherforecast.utils.json;
 
 import org.json.JSONException;
 import org.json.JSONObject;

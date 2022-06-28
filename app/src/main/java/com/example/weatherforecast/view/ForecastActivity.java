@@ -1,4 +1,4 @@
-package com.example.fuckingpj.view;
+package com.example.weatherforecast.view;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,15 +7,12 @@ import android.os.Build;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.example.fuckingpj.R;
-import com.example.fuckingpj.api.entity.Astro;
-import com.example.fuckingpj.api.entity.Forecast;
-import com.example.fuckingpj.api.entity.Location;
+import com.example.weatherforecast.R;
+import com.example.weatherforecast.api.entity.Forecast;
+import com.example.weatherforecast.api.entity.Location;
 
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.Calendar;
-import java.util.Date;
 
 public class ForecastActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.O)

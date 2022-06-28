@@ -1,4 +1,4 @@
-package com.example.fuckingpj;
+package com.example.weatherforecast;
 
 import org.junit.Test;
 

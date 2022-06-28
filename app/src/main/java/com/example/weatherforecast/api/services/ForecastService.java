@@ -1,6 +1,6 @@
-package com.example.fuckingpj.api.services;
+package com.example.weatherforecast.api.services;
 
-import com.example.fuckingpj.api.entity.Forecast;
+import com.example.weatherforecast.api.entity.Forecast;
 
 import retrofit2.http.GET;
 import retrofit2.http.Query;
